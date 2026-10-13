@@ -58,8 +58,8 @@ data class ScoreStudent(
     val score: Double?
 )
 
-// ==================== HÀM DÙNG CHUNG ====================
 
+// FUNCTION dùng chung =)
 fun classify(score: Double): String {
     return if (!score.isFinite() || score < 0 || score > 10) {
         "Không hợp lệ"
@@ -141,13 +141,14 @@ fun WhiteCard(content: @Composable ColumnScope.() -> Unit) {
     )
 }
 
-// ==================== BÀI 1: MÁY TÍNH ====================
+// Bài 1: Máy Tính
 
 @Composable
 fun CalculatorScreen() {
     var firstInput by rememberSaveable { mutableStateOf("") }
     var secondInput by rememberSaveable { mutableStateOf("") }
     var operation by rememberSaveable { mutableStateOf("") }
+
 
     val first = firstInput.replace(',', '.').toDoubleOrNull()
     val second = secondInput.replace(',', '.').toDoubleOrNull()
@@ -267,7 +268,7 @@ fun CalculatorScreen() {
     }
 }
 
-// ==================== BÀI 2: NULLABLE ====================
+// Bài 2:Nullable
 
 @Composable
 fun StudentListScreen() {
@@ -295,6 +296,7 @@ fun StudentListScreen() {
                     fontWeight = FontWeight.Bold,
                     fontSize = 16.sp
                 )
+
 
                 Text(
                     text = "Email: ${student.email ?: "Chưa cập nhật"}",
@@ -334,7 +336,7 @@ fun StudentListScreen() {
     }
 }
 
-// ==================== BÀI 3: IF / ELSE ====================
+//Bài 3: If ELSE
 
 @Composable
 fun ClassificationScreen() {
@@ -412,7 +414,7 @@ fun ClassificationScreen() {
     }
 }
 
-// ==================== BÀI 4: TỔNG HỢP ====================
+// Bài 4
 
 @Composable
 fun ScoreboardScreen() {
