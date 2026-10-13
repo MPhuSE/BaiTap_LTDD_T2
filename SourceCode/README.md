@@ -1,4 +1,8 @@
 # SourceCode - Bài tập Tuần 2
 
-Thư mục chứa mã nguồn chính của các bài tập:
-- [`MainActivity.kt`](MainActivity.kt): File nguồn Kotlin / Jetpack Compose chứa code toàn bộ các bài tập (Bài 1: Máy tính, Bài 2: Nullable, Bài 3: Phân loại điểm, Bài 4: Tổng hợp).
+Thư mục chứa mã nguồn Python cho các bài tập:
+- `bai_tap_1.py`: Máy tính đơn giản (Calculator)
+- `bai_tap_2.py`: Xử lý Nullable & Danh sách sinh viên
+- `bai_tap_3.py`: Phân loại điểm số (If/Else)
+- `bai_tap_4.py`: Tổng hợp điểm số & Thống kê
+- `input_data.txt`: Dữ liệu đầu vào mẫu
