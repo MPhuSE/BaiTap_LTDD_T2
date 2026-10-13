@@ -1,4 +1,4 @@
 # SourceCode - Bài tập Tuần 2
 
-Thư mục chứa mã nguồn của dự án Android Jetpack Compose.
-- [MainActivity.kt](../app/src/main/java/com/phune/baitaptuan2/MainActivity.kt): File chính chứa toàn bộ logic và giao diện các bài tập 1, 2, 3, 4.
+Thư mục chứa mã nguồn chính của các bài tập:
+- [`MainActivity.kt`](MainActivity.kt): File nguồn Kotlin / Jetpack Compose chứa code toàn bộ các bài tập (Bài 1: Máy tính, Bài 2: Nullable, Bài 3: Phân loại điểm, Bài 4: Tổng hợp).
